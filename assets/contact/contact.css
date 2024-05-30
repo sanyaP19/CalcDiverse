@@ -102,6 +102,12 @@ button:hover {
     transform: scale(1.02);
     background: #ff6984;
 }
+button:disabled{
+    cursor: not-allowed;
+    pointer-events: none;
+    transition: none;
+
+}
 
 /*----------------------------------------------- Updated Footer Styling ---------------------------------------*/
 .footer-basic {
